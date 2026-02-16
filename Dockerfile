@@ -1,10 +1,11 @@
-FROM python:3.7.9
+FROM python:3.10
 
 WORKDIR /app
 
 COPY . /app
 
-
 RUN pip install --no-cache-dir -r requirements.txt
 
-CMD ["streamlit", "run", "final_app.py", "--server.address=0.0.0.0"]
+EXPOSE 8501
+
+CMD ["streamlit", "run", "final_app.py", "--server.address=0.0.0.0", "--server.port=8501"]
