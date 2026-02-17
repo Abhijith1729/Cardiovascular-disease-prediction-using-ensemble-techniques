@@ -1,9 +1,10 @@
-streamlit==1.32.0
+streamlit
 numpy
 pandas
-scikit-learn
-joblib
-altair==4.2.2
 matplotlib
-scipy
+scikit-learn
 scikit-image
+natsort
+scipy
+pillow
+joblib
