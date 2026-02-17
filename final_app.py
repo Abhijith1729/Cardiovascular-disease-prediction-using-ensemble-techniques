@@ -228,6 +228,6 @@ if uploaded_file is not None:
 
 st.markdown("""
 <div style="text-align: center; margin-top: 50px;">
-    <p>© 2024 Cardiovascular Disease Prediction Using Ensemble Technique</p>
+    <p>© 2026 Cardiovascular Disease Prediction Using Ensemble Technique</p>
 </div>
 """, unsafe_allow_html=True)
